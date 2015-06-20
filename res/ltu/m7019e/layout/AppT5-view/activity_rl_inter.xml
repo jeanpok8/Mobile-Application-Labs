@@ -1,0 +1,36 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id = "@+id/Layout01"
+ android:layout_width = "fill_parent"
+ android:layout_height ="fill_parent"
+ android:background="@drawable/ltu">
+  <TextView 
+ 	 android:id = "@+id/txtState"
+ 	 android:layout_width = "wrap_content"
+ 	 android:layout_height ="60dp"
+     android:text="@string/no_status"
+     android:textStyle="bold"
+     android:textSize="18dp"
+ 	 android:gravity="center">	  
+ 	</TextView>
+ 	
+ 	  <AutoCompleteTextView  
+ 	 android:id = "@+id/edtState"
+ 	 android:layout_width = "wrap_content"
+ 	 android:layout_height ="70dp"
+ 	 android:hint="@string/type_your_state_here">	       
+ 	 </AutoCompleteTextView> 
+ 	 <TableRow>
+     <ToggleButton
+ 	    android:id="@+id/tglbtn"
+ 	    android:layout_width="150dp"
+ 	    android:layout_height="wrap_content"
+        android:textOff="Hold Status"
+ 	    android:textOn="Release Status">
+	    </ToggleButton>
+	    <Button
+ 	    android:id="@+id/btnSbm"
+ 	    android:layout_width="150dp"
+ 	    android:layout_height="wrap_content"
+ 	    android:text="Submit Status" />
+ </TableRow>
+ 	</TableLayout>
