@@ -25,7 +25,7 @@ import android.widget.Toast;
  * the Server and the client and they can run on both devices.
  *  
  * 
- * @author bambanza
+ * @author 
  */
 public class MainActivity extends Activity {
 	 
