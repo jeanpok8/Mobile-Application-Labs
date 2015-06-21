@@ -19,7 +19,7 @@ import android.widget.TextView;
  * Class that extends the Media recoder and add the recording using external MIC
  * recorder nad play the recorded voice using the external player
  * 
- * @author bambanza
+ * @author 
  */
 
 public class MediaActivity extends Activity implements OnClickListener,
